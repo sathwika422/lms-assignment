@@ -6,11 +6,13 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import AdminHome from "./pages/AdminHome/AdminHome";
 import StudentHome from "./pages/StudentHome/StudentHome";
+import Header from "./components/Header/Header";
 
 function App() {
 	return (
 		<div className="app">
 			<Router>
+			<Header />
 				<Routes>
 					<Route path="login" element={<Login />} />
 					<Route path="admin/*" element={<AdminHome />} />

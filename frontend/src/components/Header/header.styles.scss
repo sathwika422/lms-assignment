@@ -1,0 +1,22 @@
+.header-container {
+  background-color: #6366f1;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  color: white;
+
+  .header {
+    .links-container {
+      .header-link {
+        margin: 0 2em;
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          border-bottom: 1px solid white;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
