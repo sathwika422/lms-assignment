@@ -1,0 +1,21 @@
+.login-container {
+	.p-card {
+		width: 25vw;
+
+		.p-card-content {
+			padding: 0;
+
+			.p-password {
+				width: 100%;
+
+				input {
+					width: 100%;
+				}
+			}
+		}
+
+		.login-user-icon {
+			box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+		}
+	}
+}
