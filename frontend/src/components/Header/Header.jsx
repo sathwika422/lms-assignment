@@ -13,7 +13,7 @@ const Header = () => {
         <div className="links-container flex flex-row align-items-center justify-content-center ">
           <div>
             <Link to="/admin" className="header-link">
-              Home
+              Admin Home
             </Link>
           </div>
           <div>
@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <div>
             <Link to="/student" className="header-link">
-              Home
+              Student Home
             </Link>
           </div>
         </div>

@@ -24,7 +24,7 @@ const AddBookDialog = (props) => {
 					<Button
 						label="Add"
 						type="submit"
-						onClick={() => handleAddNewBook()}
+						onClick={handleAddNewBook}
 					/>
 				</div>
 			}
